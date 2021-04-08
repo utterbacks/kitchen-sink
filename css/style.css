@@ -70,8 +70,15 @@ p {
 p a,
 blockquote a {
   color: var(--black);
+}
+a {
+  text-decoration: underline var(--green);
+  width: max-content;
+  transition: 0.5s;
+}
+a:hover {
   text-decoration: none;
-  border-bottom: solid 2px var(--green);
+  font-size: 112.5%;
 }
 
 h1,
